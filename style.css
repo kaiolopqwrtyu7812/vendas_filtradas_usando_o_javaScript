@@ -1,0 +1,161 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background: linear-gradient(to right, #f9f9f9, #e0e0e0);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 800px;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+.success-message {
+    font-size: 28px;
+    color: #4CAF50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.rosary-image {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    border: 5px solid #4CAF50;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.rosary-image:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.thank-you {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.animated-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('URL_DA_IMAGEM_DO_FUNDO') repeat;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.products, .testimonials, .call-to-action {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.product-gallery img {
+    width: 200px;
+    height: auto;
+    border: 3px solid #4CAF50;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-gallery img:hover {
+    transform: scale(1.1);
+}
+
+.testimonial {
+    font-style: italic;
+    margin: 15px 0;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.cta-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+.field label {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+
+.field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none;
+}
